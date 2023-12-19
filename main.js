@@ -12,8 +12,8 @@ function createWindow() {
     }
   });
 
-  // Load the index.html file
-  mainWindow.loadFile(path.join(__dirname, 'renders', 'index.html'));
+  // Load the Main_Landing.html file
+  mainWindow.loadFile(path.join(__dirname, 'renders', 'Main_Landing.html'));
 
   mainWindow.on('closed', function () {
     mainWindow = null;
