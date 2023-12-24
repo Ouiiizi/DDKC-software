@@ -7,22 +7,34 @@
   <title>DDKC | Login</title>
 </head>
 <body>
+  <div class="section1">
+      <div class="logo_container">
+        <img src="./images/logo.png">
+      </div>
 
-<div class="login-container">
+      <div class="container_content">
+          <div class="form_container">
+             <h1 class="welcome_msg">Welcome back!</h1>
+             <h3 class="small_msg">Please enter your username and password to login.</h1>
 
-  <form action="#" method="post" class="login-form">
-    <h2>DDKC LOGIN</h2>
-    <label for="username">Username</label>
-    <input type="text" id="username" name="username" placeholder="Enter your username" required>
+            <form action="#" method="post" class="login-form">
+               <label for="username">Username</label>
+               <input type="text" id="username" name="username" placeholder="Enter your username" required>
+               
+               <label for="password">Password</label>
+               <input type="password" id="password" name="password" placeholder="Enter your password" required>
+               
+               <button type="submit" onclick="validateLogin()">Login</button>
+            </form>
+          </div>
+          <div class="image_container">
+            
+          </div>
+      </div>
+  </div>
 
-    <label for="password">Password</label>
-    <input type="password" id="password" name="password" placeholder="Enter your password" required>
-
-    <button type="submit" onclick="validateLogin()">Login</button>
-
-    </form>
-  <p name="p">All sites and Logo belongs to DDKC.</p>
-</div>
+  
 </body>
 <script src="./JS/server.js" defer></script>
+<script src="main.js" defer></script>
 </html>

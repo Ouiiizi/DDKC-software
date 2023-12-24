@@ -1,84 +1,65 @@
 body{
-    font-family: Arial;
+    background-color: #F9F6EE;
+    margin: 0%;
+    overflow:hidden;
 }
-  h1 {
-    color: #333;
-  }
+@font-face {
+    font-family: main;
+    src: url(../fonts/Prociono.ttf);
+}
 
-body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+h1{
+    font-size: 5vw;
+    color: #333333;
+    font-family: main;
+}
+h2{
+    font-size: 2.5vw;
+    color: #333333;
+    font-family: main;
+}
+h3{
+    font-size: 1vw;
+    color: #333333;
+    font-family: main;
+}
+
+
+.section1{
+    width: 100vw;
     height: 100vh;
-    background-color: #f4f4f4;
+    background-color: #F9F6EE;
 }
-
-.login-container {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+.logo_container{
+    width: 100vw;
+    height: 10vh;    
 }
-
-.login-form {
+.logo_container img{
+    width: 7vw;
+    margin-left: 2vw;
+    margin-top: 2vw;
+}
+.container_content{
+    width: 100vw;
+    height: 90vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: center;
+}
+.form_container{
+    width: 40vw;
+    height: 60vh;
+}
+.image_container{
+    width: 40vw;
+    height: 60vh;
 }
 
-h2 {
-    text-align: center;
-    color: #333;
-}
-
-label {
-    margin-top: 10px;
-    font-size: 14px;
-    color: #666;
-}
-
-input {
-    padding: 10px;
-    margin-top: 5px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
-
-button {
-    background-color: #4caf50;
-    color: #fff;
-    padding: 10px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #45a049;
-}
-
-.register-link {
-    text-align: center;
-
-    margin-top: 15px;
-    color: #666;
-}
-
-.register-link a {
-    color: #007bff;
-    text-decoration: none;
-}
-
-.register-link a:hover {
-    text-decoration: underline;
-}
- p{
-    font-size: 9.5px;
-     text-align: center;
+.small_msg{
+    margin-top: -10%;
+    margin-left: 2%;
 }
 
 /* Register CSS */
